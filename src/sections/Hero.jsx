@@ -36,7 +36,7 @@ export default function Hero() {
         </button>
 
         {/* Secondary */}
-        <button className="flex items-center gap-2 border border-gray-700 px-6 py-3 rounded-full text-sm text-gray-300 hover:bg-gray-900 transition">
+        <button className="flex items-center gap-2 border border-neutral-700 px-6 py-3 rounded-full text-sm text-gray-300 hover:bg-gray-900 transition">
           See our plans
           <span className="text-red-500">→</span>
         </button>

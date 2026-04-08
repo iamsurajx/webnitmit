@@ -24,7 +24,7 @@ export default function WhyUs() {
         {[...topTags, ...topTags].map((tag, i) => (
           <div
             key={i}
-            className="px-6 py-3 bg-gray-800 text-sm text-gray-300 rounded-md border border-gray-700"
+            className="px-6 py-3 bg-neutral-800 text-sm text-neutral-300 rounded-md border border-neutral-700"
           >
             {tag}
           </div>
@@ -36,7 +36,7 @@ export default function WhyUs() {
         {[...bottomTags, ...bottomTags].map((tag, i) => (
           <div
             key={i}
-            className="px-6 py-3 bg-gray-900 text-sm text-gray-300 rounded-md border border-gray-700"
+            className="px-6 py-3 bg-neutral-900 text-sm text-neutral-300 rounded-md border border-neutral-700"
           >
             {tag}
           </div>

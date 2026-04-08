@@ -1,14 +1,15 @@
 @import "tailwindcss/preflight";
 @tailwind utilities;
 
+@import "tailwindcss";
+
+/* IMPORTANT for @apply */
+@reference utilities;
+
 /* horizontal scroll animation */
 @keyframes scroll {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
 }
 
 .animate-scroll {
@@ -16,13 +17,13 @@
 }
 
 .input-style {
-  @apply w-full bg-transparent border-b border-gray-700 text-white px-1 py-3 text-sm outline-none transition;
+  @apply w-full bg-transparent border-b text-sm outline-none transition;
 }
 
 .input-style::placeholder {
-  color: #6b7280; /* gray-500 */
+  color: #6b7280;
 }
 
 .input-style:focus {
-  border-color: #ef4444; /* red-500 */
+  border-color: #ef4444;
 }
