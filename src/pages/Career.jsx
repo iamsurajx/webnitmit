@@ -84,9 +84,6 @@ export default function Career() {
 
   return (
     <>
-      {/* Navbar */}
-      <Navbar />
-
       <section className="bg-black text-white min-h-screen px-8 md:px-16 py-24">
         {/* Heading */}
         <div className="text-center mb-16">
